@@ -1,0 +1,62 @@
+/* @import url("https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  color: #EE4B2B;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+}
+
+/*layout & nav*/
+.layout {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 30px;
+}
+
+nav .links {
+  display: grid;
+  grid-template-columns: .5fr .5fr 4fr 1fr;
+  line-height: 170px;
+  height: 200px;
+  /* border: 3px solid green; */
+  text-align: center;
+}
+
+nav .links h1 {
+  font-size: 70px;
+}
+
+nav a {
+  display: inline-block;
+  font-weight: 400;
+  padding-bottom: 8px;
+  /* border-bottom: 3px solid; */
+}
+
+nav a:hover {
+  /* color: #11b4d4; */
+}
+
+nav h1:hover {
+  /* color: #11b4d4; */
+}
+
+footer p {
+  text-align: center;
+  color: #bbb;
+  margin: 40px auto;
+}
